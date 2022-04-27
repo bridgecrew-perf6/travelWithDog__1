@@ -148,10 +148,15 @@ const CommunityPage = ({ isLoggedIn }) => {
         </div>
       </div>
       <main className={styles.main}>
-        <div className={styles.main_top}>
-          {board && (
+      {board && (
             <h2 className={styles.board_title}>{`${board.name} 게시판`}</h2>
           )}
+        {/* From here we change to tree node. */}
+        <div className={styles.sidebar}>
+        <div className={styles.main_top}>
+          {/*board && (
+            <h2 className={styles.board_title}>{`${board.name} 게시판`}</h2>
+          )*/}
           <ul className={styles.select_container}>
             {boardList &&
               boardList.map((board) => (
@@ -171,6 +176,7 @@ const CommunityPage = ({ isLoggedIn }) => {
               ))}
           </ul>
         </div>
+
         <div className={styles.search_container}>
           <div className={styles.search_left}>
             <select className={styles.select}>
@@ -199,6 +205,11 @@ const CommunityPage = ({ isLoggedIn }) => {
             </button>
           )}
         </div>
+
+
+        </div>
+
+        
         <div className={styles.list}>
           {childOpen && child && child.length > 0 && (
             <div className={styles.child_container}>

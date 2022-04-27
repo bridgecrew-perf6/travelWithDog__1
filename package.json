@@ -1,6 +1,6 @@
 {
-  "homepage": "http://dlwhd990.github.io/travelWithDog",
-  "name": "travelWithDog",
+  "homepage": "http://hyeokjun97.github.io/travelWithDog_1",
+  "name": "travelWithDog_1",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -74,7 +74,7 @@
     "terser-webpack-plugin": "^5.2.5",
     "web-vitals": "^0.2.4",
     "webpack": "^5.64.4",
-    "webpack-dev-server": "^4.6.0",
+    "webpack-dev-server": "^4.8.1",
     "webpack-manifest-plugin": "^4.0.2",
     "workbox-webpack-plugin": "^6.4.1"
   },
