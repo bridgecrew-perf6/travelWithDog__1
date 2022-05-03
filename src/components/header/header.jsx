@@ -73,7 +73,7 @@ const Header = ({
           {/*   className={styles.body}>  FOR RETURNING BACK */} 
         <div className={styles.logo_container}>
           <img
-            src="/travelWithDog/images/logo.png"
+            src={process.env.PUBLIC_URL + 'images/logo.png'}
             alt="travel_with_dog"
             className={styles.logo}
             onClick={() => {
