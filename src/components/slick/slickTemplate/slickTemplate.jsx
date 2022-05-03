@@ -17,6 +17,7 @@ function NextArrow(props) {
   return (
     <img
       src="/travelWithDog/images/arrow-right.png"
+      //src="/public/images/arrow-right.png"
       alt="arrow"
       className={`${className} arrow_right`}
       style={{
@@ -99,7 +100,8 @@ export default class SlickTemplate extends Component {
       ],
     };
     console.log(itemList);
-
+    //console.log(__dirname);
+    //console.log(process.cwd());
     //각각의 디자인에 맞는 카드 컴포넌트들을 만들어서 이곳에 끼워넣는 방식, 만약 style에
     //어려움이 있다면 그냥 여기에 직접 하기
     return (
